@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 // import EventsFunctional from './components/EventsFunctional';
 // import EventsClass from './components/EventsClass';
-import EventsBinding from './components/EventsBinding';
+// import EventsBinding from './components/EventsBinding';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallBack from './components/StatefulGreetingWithCallBack';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <StatefulGreetingWithPrevState greeting="Im a stateful class component" name="Freddie"/> */}
       {/* <EventsFunctional />
       <EventsClass /> */}
-      <EventsBinding />
+      {/* <EventsBinding /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true}/>
     </div>
   );
 }
