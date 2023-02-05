@@ -8,8 +8,11 @@ import './App.css';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallBack from './components/StatefulGreetingWithCallBack';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+// import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponent from './components/NestingComponents';
+
+
 
 function App() {
   return (
@@ -22,8 +25,9 @@ function App() {
       {/* <EventsFunctional />
       <EventsClass /> */}
       {/* <EventsBinding /> */}
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={true}/>
+      {/* <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true}/> */}
+      <NestingComponent />
     </div>
   );
 }
