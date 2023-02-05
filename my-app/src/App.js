@@ -10,8 +10,8 @@ import './App.css';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-import NestingComponent from './components/NestingComponents';
-
+// import NestingComponent from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 function App() {
@@ -27,7 +27,8 @@ function App() {
       {/* <EventsBinding /> */}
       {/* <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={true}/> */}
-      <NestingComponent />
+      {/* <NestingComponent /> */}
+      <MethodsAsPropsParent />
     </div>
   );
 }
