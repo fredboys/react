@@ -16,7 +16,8 @@ import './App.css';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
-import ControlledForm from './components/ControlledForm'; 
+// import ControlledForm from './components/ControlledForm'; 
+import UncontrolledForm from './components/UncontrolledForm';
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      <UncontrolledForm />
     </div>
   );
 }
