@@ -5,7 +5,7 @@ function UseEffectCounterContainer() {
     const [display, setDisplay] = useState(true);
     return (
         <div>
-            <button onClick={() => {
+            <button onClick={ () => {
                 setDisplay(!display)
             }}>
                 Toggle Display
